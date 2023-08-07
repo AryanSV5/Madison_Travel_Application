@@ -1,0 +1,26 @@
+digraph MadisonAcademicBuildings {
+
+humanities -> college_library[label = 0.2];
+humanities -> science_hall[label = 0.1];
+humanities -> union_south[label = 0.6];
+science_hall -> college_library[label = 0.1];
+science_hall -> van_vleck_hall[label = 0.4];
+college_library -> bascom_hall[label = 0.5];
+college_library -> memorial_library[label = 0.3];
+bascom_hall -> ingraham_hall[label = 0.2];
+bascom_hall -> science_hall[label = 0.1];
+memorial_library -> engineering_hall[label = 0.8];
+memorial_library -> van_vleck_hall[label = 0.4];
+van_vleck_hall -> humanities[label = 0.3];
+van_vleck_hall -> ingraham_hall[label = 0.2];
+ingraham_hall -> agriculture_hall[label = 0.3];
+ingraham_hall -> union_south[label = 0.4];
+agriculture_hall -> bascom_hall[label = 0.4];
+agriculture_hall -> engineering_hall[label = 0.3];
+agriculture_hall -> humanities[label = 0.5];
+engineering_hall -> union_south[label = 0.1];
+engineering_hall -> ingraham_hall[label = 0.5];
+union_south -> memorial_library[label = 0.7];
+union_south -> agriculture_hall[label = 0.4];
+
+}
